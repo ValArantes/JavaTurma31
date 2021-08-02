@@ -1,0 +1,28 @@
+package Exercicios;
+
+import java.util.Scanner;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+
+		int ano, mes, dias;
+		
+		Scanner entrada= new Scanner(System.in);
+		
+		System.out.println("Escreva quantos anos você tem: ");
+		ano= entrada.nextInt();
+		
+		System.out.println("Escreva quantos meses você tem: ");
+		mes= entrada.nextInt();
+		
+		System.out.println("Escreva quantos dias você tem: ");
+		dias= entrada.nextInt();
+		
+		System.out.println("Você possui: " + dias + " dias");
+		
+		entrada.close();
+		
+	}
+
+}
